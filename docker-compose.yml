@@ -10,7 +10,7 @@ services:
                         MYSQL_ROOT_PASSWORD: root
                         MYSQL_USER: ganesh
                         MYSQL_PASSWORD: Ganesh29
-                        MYSQL_DATABASE: wordpressdb
+                        MYSQL_DATABASE: Wordpressdb
 
         wordpressos:
                 image: wordpress:5.4
@@ -23,7 +23,7 @@ services:
                         WORDPRESS_DB_HOST: mydatabase
                         WORDPRESS_DB_USER: ganesh
                         WORDPRESS_DB_PASSWORD: Ganesh29
-                        WORDPRESS_DB_NAME: wordpressdb
+                        WORDPRESS_DB_NAME: Wordpressdb
                 volumes:
                         - wp_storage_new:/var/www/html
 
